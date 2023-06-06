@@ -1,0 +1,13 @@
+{
+  "name": "test-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

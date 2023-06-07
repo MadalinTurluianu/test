@@ -1,5 +1,5 @@
-import { Errors } from "./constants.js";
-import { isListOfIntegers, isListOfOperations } from "./helpers.js";
+import { Errors } from "../utils/constants.js";
+import { isListOfIntegers, isListOfOperations } from "../utils/helpers.js";
 
 export function routineOverListOfNumbers(listOfNumbers, listOfOperations) {
   if (!isListOfOperations(listOfOperations)) throw Errors.functionsListOnly;

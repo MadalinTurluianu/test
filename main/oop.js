@@ -3,8 +3,8 @@ import {
   isListOfOperations,
   isInteger,
   isFunction,
-} from "./helpers.js";
-import { Errors } from "./constants.js";
+} from "../utils/helpers.js";
+import { Errors } from "../utils/constants.js";
 import { routineOverListOfNumbers } from "./functional.js";
 
 export class Exercise {

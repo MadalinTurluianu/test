@@ -1,4 +1,4 @@
-import { routineOverListOfNumbers } from "./functional.js";
+import { routineOverListOfNumbers } from "../main/functional.js";
 import {
   BadNumbers1,
   BadNumbers2,

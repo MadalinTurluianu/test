@@ -1,4 +1,4 @@
-import { getDefaultArrayOfNumbers } from "./helpers.js";
+import { getDefaultArrayOfNumbers } from "../utils/helpers.js";
 
 export const TestResult = {
   failed: "FAILED",
